@@ -1,2 +1,2 @@
 # Nors
-##Music sheets presentation software
+Music sheets presentation software
