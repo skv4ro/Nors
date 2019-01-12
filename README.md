@@ -1,6 +1,6 @@
 # Nors
-## Notový ORganovy Software
-
+## Notový ORganový Software
+<h1>Ahoj svet</h1>
 Softver pre digitalne zobrazovanie liturgickej a hudobnej literatury pre organistov. 
 
 Program je vyvyjany ako webova aplikacia a ako open source s MIT licenciou (vid LICENSE).
