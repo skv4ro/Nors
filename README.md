@@ -8,7 +8,7 @@ Vyvyjany je najma pre monitory s dotykovym rozhranim, no snaha bude vytvorit apl
 
 Akekolvek pripomienky posielajte na mail skv4ro@gmail.com
 
-DEMO: http://www.juvius.sk
+DEMO: http://www.juvius.sk/nors
 
 PODPORA: 
 Projekt mozte financne podporit lubovolnou ciastkou na cislo uctu: 
