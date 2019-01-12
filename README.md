@@ -1,5 +1,5 @@
 # Nors
-Notacny ORganovy Software
+## Notový ORganovy Software
 
 Softver pre digitalne zobrazovanie liturgickej a hudobnej literatury pre organistov. 
 
