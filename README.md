@@ -1,4 +1,5 @@
-# :musical_score: Nors
+![Nors](nors.png)  
+  
 **N**otový **OR**ganový **S**oftvér
 
 Softvér pre digitálne zobrazovanie liturgickej a hudobnej literatúry pre organistov. 
