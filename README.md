@@ -1,5 +1,5 @@
-# Nors
-Notový ORganový Softvér
+# :musical_score: Nors
+**N**otový **OR**ganový **S**oftvér
 
 Softvér pre digitálne zobrazovanie liturgickej a hudobnej literatúry pre organistov. 
 
@@ -7,11 +7,12 @@ Nors je program vyvíjaný ako Open Source webová aplikácia pod MIT licenciou 
 
 Akékoľvek pripomienky a otázky zasielajte na mail skv4ro@gmail.com
 
-DEMO: http://www.juvius.sk/nors
+### DEMO: 
+http://www.juvius.sk/nors
 
-PODPORA: 
+### PODPORA: 
 Projekt môžete finančne podporiť ľubovoľnou čiastkou na číslo účtu s poznámkou "Nors": 
-SK46 0200 0000 0027 6469 5059
+> SK46 0200 0000 0027 6469 5059
 
-Potrebna cielova suma: 700€
-Vyzbierane (ku dnu 12.01.2019): 0€
+- Potrebná cieľová suma: `700€`
+- Vyzbierané (ku dňu 12.01.2019): `0€`
