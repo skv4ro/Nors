@@ -1,19 +1,17 @@
 # Nors
-## Notový ORganový Software
-<h1>Ahoj svet</h1>
-Softver pre digitalne zobrazovanie liturgickej a hudobnej literatury pre organistov. 
+Notový ORganový Softvér
 
-Program je vyvyjany ako webova aplikacia a ako open source s MIT licenciou (vid LICENSE).
-Vyvyjany je najma pre monitory s dotykovym rozhranim, no snaha bude vytvorit aplikaciu aj pre pohodlne pouzivanie na klasickych desktopoch a mobilnych zariadeniach. Nors by mala byt offline webova aplikacia, ktorej webovy server by mal bezat na localhost-e. Sucastna verzia je bez pouzitia web serveru, no dalsie verzie by mali pouzivat webovy server NodeJS.
+Softvér pre digitálne zobrazovanie liturgickej a hudobnej literatúry pre organistov. 
 
-Akekolvek pripomienky posielajte na mail skv4ro@gmail.com
+Nors je program vyvíjaný ako Open Source webová aplikácia pod MIT licenciou (viď LICENSE). Optimalizovaný by mal byť najmä pre monitory s dotykovým rozhraním, no snaha bude vytvoriť aplikáciu aj pre pohodlné používanie na klasickom desktope a mobilných zariadeniach. Nors je vyvýjaný ako offline SPA kiosk aplikácia optimalizovaná pre použitie vo webovom prehliadači Chrome s využitím webového serveru NodeJS, ktorý by mal bežať na localhost-e. Tým, že Nors je vyvýjaný ako webowá aplikácia je predurčený aj na používanie prostredníctvom internetu, prípadne pre použitie s viacerými počítačmi v jednej LAN sieti s centrálnym serverom a databázou nôt a iných materiálov.
+
+Akékoľvek pripomienky a otázky zasielajte na mail skv4ro@gmail.com
 
 DEMO: http://www.juvius.sk/nors
 
 PODPORA: 
-Projekt mozte financne podporit lubovolnou ciastkou na cislo uctu: 
+Projekt môžete finančne podporiť ľubovoľnou čiastkou na číslo účtu s poznámkou "Nors": 
 SK46 0200 0000 0027 6469 5059
-s poznamkou Nors
 
 Potrebna cielova suma: 700€
 Vyzbierane (ku dnu 12.01.2019): 0€
