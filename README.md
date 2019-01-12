@@ -1,4 +1,4 @@
-![Nors](nors.png)  
+![Nors](logo.png)  
   
 **N**otový **OR**ganový **S**oftvér
 
