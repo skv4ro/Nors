@@ -1,0 +1,59 @@
+.bookmark {
+    background-color: salmon;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    margin: 10px;
+    user-select: none;
+    touch-action: none;
+    font-size: .9em;
+}
+.bookmark p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+}
+.bookmark h3 {
+    margin-left: 3px;
+    position: absolute;
+    line-height: 0;
+    float: left;
+}
+
+.bookmark sup, .bookmark sub {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    content: '';
+    border-right: 40px solid transparent;
+    z-index: -1;
+}
+.bookmark sup {
+    border-top: 40px solid salmon;
+}
+.bookmark sub {
+    border-bottom: 40px solid salmon;
+}
+
+.bookmark:active {
+    left: 2px;
+    top: 2px
+}
+
+.book {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 5px;
+    font-size: .9em;
+    padding: 5px;
+}
+.book p {
+    margin: 0;
+}

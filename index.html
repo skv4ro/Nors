@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Nors</title>
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/scroll.css"/>
+    <link rel="stylesheet" href="css/splitter.css"/>
+
+    <script src="js/splitter.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/nors.js"></script>
+    <script src="js/resizer.js"></script>
+
+    <script src="res/books/ls1/png.js"></script>
+    <script src="res/books/jks/jpg.js"></script>
+    <script src="res/books/ls2/jpg.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+      const config = {
+          root: 'app'
+      };
+      const nors = new Nors(config);
+      new LS1(nors.leftPane.content);
+      new JKS(nors.middlePane.content);
+      new LS2(nors.rightPane.content);
+  </script>
+</body>
+</html>
