@@ -8,7 +8,7 @@ Nors je program vyvíjaný ako Open Source webová aplikácia pod MIT licenciou 
 
 Akékoľvek pripomienky a otázky zasielajte na mail skv4ro@gmail.com
 
-### DEMO: 
+### LIVE DEMO: 
 http://www.juvius.sk/nors
 
 - zobrazené knihy majú len po 10 strán kvôli rýchlosti načítania stránky
