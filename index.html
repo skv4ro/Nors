@@ -11,25 +11,104 @@
     <link rel="stylesheet" href="css/scroll.css"/>
     <link rel="stylesheet" href="css/splitter.css"/>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
     <script src="js/splitter.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/nors.js"></script>
     <script src="js/resizer.js"></script>
+    <script src="js/bookloader.js"></script>
+    <script src="js/menu.js"></script>
 
-    <script src="res/books/ls1/png.js"></script>
-    <script src="res/books/jks/jpg.js"></script>
-    <script src="res/books/ls2/jpg.js"></script>
+    <script src="res/books/books.js"></script>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+      <div id="menu" ng-app="myApp" ng-controller="myCtrl">
+          <div class="menu-drag"></div>
+          <div class="menu-content">
+              <div class="menu-column menu-books">
+                  <ul ng-repeat="x in books">
+                      <li ng-click="render(x)">{{names[$index]}} - {{x.path}} - {{x.start}}-{{x.end}}</li>
+                  </ul>
+              </div>
+             <div class="menu-column menu-bookmarks">
+
+             </div>
+          </div>
+      </div>
+  </div>
   <script>
       const config = {
           root: 'app'
       };
       const nors = new Nors(config);
-      new LS1(nors.leftPane.content);
-      new JKS(nors.middlePane.content);
-      new LS2(nors.rightPane.content);
+      new Menu(document.getElementById('menu'));
+
+      nors.leftPane.loadBook(BOOKS.LS1);
+      nors.middlePane.loadBook(BOOKS.JKS);
+      nors.rightPane.loadBook(BOOKS.LS2);
+
+      function isDescendant(parent, child) {
+          var node = child.parentNode;
+          while (node != null) {
+              if (node === parent) {
+                  return true;
+              }
+              node = node.parentNode;
+          }
+          return false;
+      }
+
+      const app = angular.module('myApp', []);
+      app.controller('myCtrl', function($scope) {
+          $scope.books = BOOKS;
+          $scope.names = Object.keys(BOOKS);
+
+          $scope.render = function (json) {
+              const arr = [nors.leftPane, nors.middlePane, nors.rightPane];
+              for(let i = 0; i < arr.length; i++) {
+                  if(isDescendant(arr[i].content)) {
+                      arr[i].loadBook(json);
+                      return;
+                  }
+              }
+          };
+
+          document.getElementById("menu").onclick = function () {
+              $scope.$apply(function () {
+                  BOOKS.MKP = {
+                      path: 'res/books/mkp/jpg',
+                      name: 'MKP',
+                      format: 'jpg',
+                      start: 90,
+                      end: 110
+                  };
+                  BOOKS.LPB = {
+                      path: 'res/books/mkp/jpg',
+                      name: 'MKP',
+                      format: 'jpg',
+                      start: 90,
+                      end: 110
+                  };
+                  BOOKS.PKL = {
+                      path: 'res/books/mkp/jpg',
+                      name: 'MKP',
+                      format: 'jpg',
+                      start: 90,
+                      end: 110
+                  };
+                  BOOKS.APL = {
+                      path: 'res/books/mkp/jpg',
+                      name: 'MKP',
+                      format: 'jpg',
+                      start: 90,
+                      end: 110
+                  };
+                  $scope.names = Object.keys(BOOKS);
+              });
+          }
+      });
   </script>
 </body>
 </html>
