@@ -33,18 +33,6 @@ Cieľom projektu je vytvoriť užívateľsky priateľskú aplikáciu s čistým 
 ### KONTAKT
 Akékoľvek pripomienky a otázky zasielajte na mail skv4ro@gmail.com
 
-### LIVE DEMO: 
-http://www.juvius.sk/nors
-
-- zobrazené knihy majú len po 10 strán kvôli rýchlosti načítania stránky
-- nie je ešte dorobená automatická zmena mieky pri zmene veľkosti okna
-- zatiaľ chýba navigačné menu
-- scroll sa automaticky aktualizuje len v prehliadači Chrome a Chrome mobile
-- zväčšovanie a zmenšovanie nôt funguje zatiaľ len na dotykových zariadeniach s použitím 2 prstov (pinchzoom)
-
 ### PODPORA: 
 Projekt môžete finančne podporiť ľubovoľnou čiastkou na číslo účtu s poznámkou "Nors": 
 > SK46 0200 0000 0027 6469 5059
-
-- Potrebná cieľová suma: `700€`
-- Vyzbierané (ku dňu 12.01.2019): `0€`
